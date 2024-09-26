@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Container Berhasil</title>
+    <style>
+      body {
+        background-color: #f0f8ff; /* Warna latar belakang */
+        font-family: Arial, sans-serif; /* Font */
+        display: flex; /* Flexbox untuk sentralisasi */
+        justify-content: center; /* Sentralisasi secara horizontal */
+        align-items: center; /* Sentralisasi secara vertikal */
+        height: 100vh; /* Mengisi tinggi viewport */
+        margin: 0; /* Menghilangkan margin default */
+        color: #333; /* Warna teks */
+      }
+
+      h1 {
+        font-size: 2.5em; /* Ukuran font */
+        text-align: center; /* Teks tengah */
+        animation: fadeIn 2s; /* Animasi fadeIn */
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0; /* Mulai dari transparan */
+        }
+        to {
+          opacity: 1; /* Akhirnya menjadi tidak transparan */
+        }
+      }
+
+      /* Gaya untuk tombol */
+      .button {
+        display: inline-block; /* Inline block untuk tombol */
+        padding: 10px 20px; /* Padding tombol */
+        font-size: 1.2em; /* Ukuran font tombol */
+        color: white; /* Warna teks tombol */
+        background-color: #007bff; /* Warna latar belakang tombol */
+        border: none; /* Menghilangkan border */
+        border-radius: 5px; /* Membuat sudut tombol melengkung */
+        cursor: pointer; /* Menunjukkan kursor pointer */
+        text-decoration: none; /* Menghilangkan garis bawah */
+        margin-top: 20px; /* Jarak atas */
+        transition: background-color 0.3s; /* Efek transisi warna */
+      }
+
+      .button:hover {
+        background-color: #0056b3; /* Warna latar belakang saat hover */
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Selamat Tugas Anda Berhasil Diselesaikan</h1>
+      <a href="#" class="button">Kembali ke Beranda</a>
+    </div>
+  </body>
+</html>
